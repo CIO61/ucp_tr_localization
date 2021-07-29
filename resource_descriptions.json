@@ -1,0 +1,30 @@
+// https://github.com/UnofficialCrusaderPatch/UnofficialCrusaderPatch/tree/master/resources/aic
+// https://github.com/UnofficialCrusaderPatch/UnofficialCrusaderPatch/tree/master/resources/aiv
+{
+  "AIC": {
+    "Kimberly-Balance-v1.5": "",
+
+    "Krarilotus-aggressiveAI-v1.3": "",
+    
+    "UCP-AI-Patch": "",
+    
+    "Xander10alpha_Enhanced_Vanilla_AI_1.1": "",
+    
+    "vanilla": ""
+  },
+  
+  "AIV": {
+    "EvreyFixed": "",
+    
+    "EvreyHistory": "",
+    
+    "EvreyImproved": "",
+    
+    "PitchSiege": "",
+    
+    "PitchWells": "",
+    
+    "Tatha": "",
+    
+  }
+}
