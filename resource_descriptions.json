@@ -1,5 +1,4 @@
-// https://github.com/UnofficialCrusaderPatch/UnofficialCrusaderPatch/tree/master/resources/aic
-// https://github.com/UnofficialCrusaderPatch/UnofficialCrusaderPatch/tree/master/resources/aiv
+// https://github.com/UnofficialCrusaderPatch/UnofficialCrusaderPatch/tree/master/resources
 {
   "AIC": {
     "Kimberly-Balance-v1.5": "",
@@ -26,5 +25,15 @@
     
     "Tatha": "",
     
+  },
+  
+  "goods": {
+    "vanilla": ""
+  },
+
+  "troops": {
+    "UCP-StartingTroops-Patch": "",
+    "vanilla": ""
   }
+
 }
