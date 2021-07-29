@@ -3,192 +3,192 @@
 // ======================
 u_spearmen_run
 {
-"Spearmen run by default instead of walking"
+"Her zaman koşan mızraklılar"
 }
 
 u_spearmen_run_descr
 {
-"Makes spearmen run by default like slaves and macemen."
+"Topuzlular ve köleler gibi mızraklıların da her zaman koşmasını sağlar."
 }
 
 o_seed_modification_possibility_title
 {
-"Manipulate random number generator"
+"Rastgele sayı oluşturucusunu manipüle et."
 }
 
 o_seed_modification_possibility_only_set
 {
-"Enable fixed game randomseed"
+"Sabit rastgele seed modunu etkinleştir"
 }
 
 o_seed_modification_possibility_only_set_descr
 {
-"Setting the Game seed will allow AI-only games to play out the same way if the same map settings are used. For games involving human players, it will ensure the same starting conditions in the map (e.g. AIV selection). To set the game seed, enable this option and create a file called 'live' containing an integer in the [game install]/gameseeds directory. CAUTION: This feature only works after also restarting the game!"
+"Sabit seed kullanarak oyunlar arasındaki rastgelelik faktörünü azaltabilirsiniz. Bu özellik kullanıldığında sadece bilgisayar lordlarının olduğu oyunlar her zaman aynı sonuçlanacaktır. Ayrıca insan oyuncuların olduğu oyunlarda da başlangıç koşulları her zaman aynı olacaktır(mesela bilgisayarların AIV seçimi). Sabit seed'in değerini belirlemek için [Oyunun Kurulu Olduğu Konum]/gameseeds klasörüne 'live' adında bir dosya oluşturup içine bir tamsayı girmeniz gerekir. UYARI: Bu özelliğin çalışması için oyunun ayrıca yeniden başlatılması gerekir!"
 }
 
 o_seed_modification_possibility
 {
-"Enable & Save game randomseeds"
+"Rastgele seed'i kaydetmeyi etkinleştir"
 }
 
 o_seed_modification_possibility_descr
 {
-"This option will save the seed from games that do not have a live seed set, so you can rename them to 'live' in order to recreate the match afterwards."
+"Bu seçenek ile 'live' seedi olmayan maçların kullandığı seed değerini daha sonra aynı maçı canlandırabilmek için kaydedebilirsiniz."
 }
 
 ai_recruitstate_initialtimer
 {
-"Set AIs initial time until they recruit by the AIC parameters"
+"Bilgisayar lordlarının AIC'e dayalı olarak saldırı için asker yetiştirmeye başlama zamanını değiştir"
 }
 
 ai_recruitstate_initialtimervalue_descr
 {
-"Set this value to number of months for which the AI will exclusively recruit defence troops, unless it has already filled up its defence total"
+"Bilgisayar lordları belirli bir süre boyunca, ya da total savunma asker sayısına ulaşıncaya dek yalnızca savunma amaçlı asker yetiştirir. Bu değeri değiştirerek bu 'belirli süre'yi (oyun içindeki aylar cinsinden) değiştirebilirsiniz."
 }
 
 ai_defense
 {
-"Fix reinforcement of defense troops"
+"Savunma askerlerinin desteklenmemesi sorununu düzelt"
 }
 
 ai_defense_descr
 {
-	"Fixes a bug which stopped the AI from reinforcing missing troops &
-on walls and towers, as long as defensive patrols were still around."
+	"Devriye askerleri yaşadığı, ancak kule ve duvarların üstündeki birliklerden ölenlerin 
+	yenilerinin yetiştirilmemesine sebep olan bir hatayı düzeltir."
 }
 
 ai_housing
 {
-"Let the AI build houses smarter"
+"Bilgisayarın ev inşa etme mantığını düzelt"
 }
 
 build_housing_descr
 {
-"Difference between current and maximum population, above which the AI stops building houses. This is 0 in vanilla. This also disables deleting of houses for the AI."
+"Mevcut ve maksimum nüfus farkı bu değerin üstüne çıkarsa bilgisayar ev kurmayı bırakır. Bu değer klasik oyunda 0'dır. Bu seçeneğin aktifleşmesi bilgisayarın evleri yıkmasını da iptal eder."
 }
 
 campfire_housing_descr
 {
-"Number of idle peasants at the campfire before the AI stops building houses. This also disables deleting of houses for the AI."
+"Kamp ateşinin etrafında bekleyen nüfus bu değerin üstüne çıkarsa bilgisayar ev kurmayı bırakır. Bu seçeneğin aktifleşmesi bilgisayarın evleri yıkmasını da iptal eder."
 }
 
 delete_housing
 {
-"Disable the AI's ability to delete houses."
+"Bilgisayarın ev yıkmasını engelle"
 }
 
 delete_housing_descr
 {
-"When this option is selected the AI will never delete houses."
+"Bu seçenek seçildiği zaman bilgisayar asla kurduğu bir evi yıkmaz."
 }
 
 aiv_prompt
 {
-"Custom AIVs detected. Do you want to create a backup Milord?"
+"Özel AIV dosyaları bulundu. Yedek oluşturmak ister misin lordum?"
 }
 
 aiv_cli_prompt
 {
-"Custom AIVs detected. Enter 'delete' to erase or enter folder name to copy files to."
+"Özel AIV dosyaları bulundu. 'delete' yazarak bunları sil ya da kopyalanacak klasör ismini belirt."
 }
 
 install_abort_io
 {
-"Installation aborted. Files with the same name already exist in this folder. Please try again and select a different folder."
+"Kurulum iptal edildi. Aynı isme sahip dosyalar bu klasörde mevcut. Lütfen farklı bir klasör deneyin."
 }
 
 install_abort
 {
-"Installation aborted"
+"Kurulum iptal edildi."
 }
 
 backup_aiv_select
 {
-"Select Backup AIV folder"
+"Yedek AIV klasörünü seç"
 }
 
 o_change_siege_engine_spawn_position_catapult
 {
-"Spawn siege engines in the center of their tent"
+"Kuşatma aletlerini çadırın ortasında oluştur"
 }
 
 o_change_siege_engine_spawn_position_catapult_descr
 {
-"Siege engines are spawning in the middle of their construction tent, instead of the top right corner."
+"Kuşatma aletlerinin çadırın sağ üst köşesi yerine ortasında oluşmasını sağlar."
 }
 
 o_stop_player_keep_rotation
 {
-"Rotate player keeps same as AI's"
+"Oyuncunun kalesini de bilgisayar kaleleri gibi döndür"
 }
 
 o_stop_player_keep_rotation_descr
 {
-"Player keeps now get rotated the same way, that AI keeps rotate on a map, facing with their campfire outwards towards the map edge."
+"Bu seçenek seçildiğinde oyuncu kaleleri de bilgisayar kaleleri gibi kamp ateşi haritanın kenarına doğru olacak şekilde döner."
 }
 
 o_restore_arabian_engineer_speech
 {
-"Restore engineer arabian speech"
+"Arapça konuşan mühendisler"
 }
 
 o_restore_arabian_engineer_speech_descr
 {
-"Allows engineers to speak the originally recorded arabian voicelines when the player uses the Arabian lord."
+"Arap lord seçildiği zaman mühendislerin de oyunun orijinal görev turlarında olduğu gibi arapça konuşmasını sağla."
 }
 
 u_fix_lord_animation_stuck_movement
 {
-"Reset lord animation after destroying buildings"
+"Bina yıktıktan sonra lordun animasyonunu sıfırla"
 }
 
 u_fix_lord_animation_stuck_movement_descr
 {
-"Reset the pose of the lord after it stops moving or destroys a building into the upright position. Usually it would get stuck bend down to the ground."
+"Lord bir bina yıktığı zaman genelde saldırı animasyonunun son karesinde kalır. Bu seçenek ile bunun yerine normal duruş animasyonuna geçer."
 }
 
 fix_apple_orchard_build_size
 {
-"Shrink apple orchard's build size"
+"Elma bahçesinin inşa alanını küçült"
 }
 
 fix_apple_orchard_build_size_descr
 {
-"Changes the apple orchard's build size to the size it occupies after the farm is placed down. This saves some space when building the farms and increases the rate with which the AI is able to put these farms down."
+"Elma bahçesinin inşa öncesi gösterilen alanını inşa ettikten sonra işgal ettiği alana uydurur. Bu biraz arazi kazancı sağlar ve bilgisayarın elma bahçesi koyma hızını artırır."
 }
 
 u_fix_applefarm_blocking
 {
-"Fix apple farm worker getting blocked"
+"Elmacının sıkışma hatasını düzelt"
 }
 
 u_fix_applefarm_blocking_descr
 {
-"Apple farmers can no longer be blocked by placing buildings at the top left side of the farm."
+"Elma bahçesinin sol üst tarafına bir bina konulduğunda elmacının sıkışık kalma sorununu düzeltir."
 }
 
 o_increase_path_update_tick_rate
 {
-"Check more often for available paths"
+"Uygun yol arama sıklığını arttır."
 }
 
 o_increase_path_update_tick_rate_descr
 {
-"In vanilla, it took 200 game ticks to check for new paths, often stopping units to move into the castle after destroying a gate or tower immediately.
+"Orijinal oyunda her 200 birim zamanda bir uygun yollar taranır. Bu durum surda gedik oluşturduktan ya da kule/kapı yıktıktan sonra bir süre içeriye hücum edememeye yol açar.
 
-Availability is calculated every 50 gameticks now, allowing the units to 'realize' new paths more quickly."
+Bu seçenek bu aralığı 50 birim zamana düşürürerek askerlerin yeni yolları daha hızlı farketmesini sağlar."
 }
 
 o_fix_ladderclimb
 {
-"Fix ladder climbing destination bug"
+"Merdiven tırmanma sonrası hedef bulamama sorununu düzelt"
 }
 
 o_fix_ladderclimb_descr
 {
-"Units will now remember their original destination after climbing a ladder, not getting stuck on the ladder."
+"Birimlerin merdivenden sonra gidecekleri yeri unutup merdivende kalmalarını engeller."
 }
-
+//CHECKPOINT
 u_tanner_fix
 {
 "Fix tanners getting all the same cow"
