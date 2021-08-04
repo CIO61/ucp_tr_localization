@@ -169,7 +169,7 @@ u_fix_applefarm_blocking_descr
 
 o_increase_path_update_tick_rate
 {
-"Uygun yol arama sıklığını arttır."
+"Uygun yol arama sıklığını artır."
 }
 
 o_increase_path_update_tick_rate_descr
@@ -191,73 +191,75 @@ o_fix_ladderclimb_descr
 //CHECKPOINT
 u_tanner_fix
 {
-"Fix tanners getting all the same cow"
+"Tabakçıların aynı ineği almaya çalışmasını düzelt"
 }
 
 u_tanner_fix_descr
 {
-"Tanners will no longer return without a cow when another tanner took their target cow. They will now instead stand around a bit and then get another one."
+"Tabakçıların almayı düşündükleri ineği başkası alınca geri dönmek yerine biraz bekleyip başka bir ineği alıp götürmelerini sağlar."
 }
 
 o_fix_fletcher_bug
 {
-"Fix fletcher pathing"
+"Ok imalatçısının iş güzergâhını düzelt"
 }
 
 o_fix_fletcher_bug_descr
 {
-"Fixes the behaviour where fletchers go back to the workplace after depositing the bow/crossbow instead of going straight to the stockpile."
+"Ok imalatçısının diğer imalatçılar gibi ok veya arbaleti depoya koyduktan sonra iş yerine uğramak yerine direkt yeni odunu almak için depoya gitmesini sağlar."
 }
 
 ai_fix_crusader_archers_pitch
 {
-"Fix AI's crusader archers not lighting pitch"
+"Bilgisayarın yönettiği haçlı okçuların ateş tuzaklarını tutuşturmaması sorununu düzelt"
 }
 
 ai_fix_crusader_archers_pitch_descr
 {
-"AI's European archers light pitch the same way arabian archers do, defending against enemy units."
+"Bilgisayar, normalde yalnızca arap okçularla ateş tuzaklarını tutuşturabiliyordu. Bu değişiklik ile haçlı okçular da tuzakları tutuşturabilir."
 }
 
 o_fix_baker_disappear
 {
-"Fix bakers despawning"
+"Fırıncıların yok olması sorununu düzelt"
 }
 
 o_fix_baker_disappear_descr
 {
-"Bakers no longer disappear when they don't find flour at their targeted stockpile."
+"Fırıncıların un almak için gittikleri depodan unu alamayınca yok olup, kamp ateşinden yeni fırıncı çıkması hatasını düzeltir."
 }
 
 o_fix_moat_digging_unit_disappearing
 {
-"Fix despawning of digging units"
+"Kazıcı birimlerin yok olması sorununu düzelt
 }
 
 o_fix_moat_digging_unit_disappearing_descr
 {
-"Fixes the bug where moat digging units would disappear while digging. Note that they can still disappear if you order them to move while standing on unwalkable terrain!"
+"Birimlerin hendek kazarken yok olması hatasını düzeltir. Eğer normalde yürüyemedikleri bir zemin üzerindeyken yürüme emri alırlarsa hâlâ yok olabilirler, dikkat edin!"
 }
 
 ui_welcometext
 {
-"This is an unofficial patch for Stronghold Crusader.
-The project ist available as open-source on [GitHub](https://github.com/UnofficialCrusaderPatch/UnofficialCrusaderPatch).
+"Bu proje Stronghold Crusader için gayri-resmi bir yamadır.
+Projenin kodu açık kaynak olarak [GitHub](https://github.com/UnofficialCrusaderPatch/UnofficialCrusaderPatch)'da mevcuttur.
 
-Any Crusader version is potentially supported, but since the changes were derived from the 1.41 Steam-Version, incompatibilities may appear.
-The setup will then show error messages. The installed patch version is shown in the bottom left corner of the main menu of the game. 
-Before any changes, backup files will be created. These can be restored via the 'Uninstall'-button or manually.
+Tüm Crusader versiyonları "potansiyel olarak" desteklenmektedir. Ancak yama 1.41 Steam versiyonu üzerinden çalışılarak yapıldığı için, diğer versiyonlarda bir takım uyumsuzluklar olabilir. 
 
-The team behind the UCP
+Kurulum böylesi durumlarda hata mesajlarını gösterecektir. Yüklenen yama versiyonu oyunun ana menüsünün sol alt köşesinde görülebilir. 
 
-Creator of the UCP
+Yama, yapacağı herhangi bir değişiklikten önce geriye dönüş için yedek dosyalar oluşturur. Yamayı geri almak için bu uygulama üzerinden yamayı kaldırabilir, ya da manuel olarak dosyaları değiştirebilirsiniz. 
+
+UCP Takımı
+
+Kurucu
 [Sh0wdown](https://github.com/Sh0wdown)  
 
-Project Management
+Proje Yönetimi
 [Kimberly Azula](https://github.com/ByBurton/)  
 [Krarilotus (Youtube)](https://www.youtube.com/channel/UCMXHqa2vmclSoSkuCu_q5rw)
 
-Developers
+Geliştiriciler
 [LordHansCapon](https://github.com/LordHansCapon)  
 [np123](https://github.com/patel-nikhil)  
 [J-T-de](https://github.com/J-T-de)
@@ -265,23 +267,24 @@ Developers
 [Le spec](https://github.com/LeSpec)  
 [Chaf1812](https://github.com/Chaf1812)
 
-Translators
+Çevirmenler
 [Lutel (YouTube)](https://www.youtube.com/user/MrLutel05) (Polish)  
 [Lolasik011](https://github.com/Lolasik011) (Russian)  
 [Skysoul (e-mail)](mailto:theskysoul@vip.qq.com) (Chinese)
 [Liegav (YouTube)](https://www.youtube.com/channel/UCFqQMKfYgGb7iFKJagQl_wA) (Hungarian)
+Alparslan (Türkçe)
+[CIO61](https://github.com/CIO61) (Türkçe)
 
-Content Creators   
+İçerik Üreticileri   
 [Evrey](https://github.com/Evrey) (aiv)  
 [Tatha](https://www.youtube.com/channel/UC4BrhBzHp1ymnczlkdKcSkg) (aiv,aic)  
 [PitchNeeded](https://github.com/PitchNeeded) (aiv)  
 [Xander10alpha (YouTube)](https://www.youtube.com/channel/UCYlyixfoKPcz-Ixi6Nc383Q) (aic)
 
-Special thanks of course go to  
-[Firefly Studios](https://fireflyworlds.com/)  
-for the creation of the Stronghold series
+Özel Teşekkür
+Stronghold serisini bizimle buluşturan [Firefly Studios](https://fireflyworlds.com/)'a teşekkür ederiz.
 
-And many more
+Ve daha nicesi
 [Udwin (YouTube)](https://www.youtube.com/user/UdwinLP)  
 [PodeCaradox](https://github.com/PodeCaradox)  
 [GRhin](https://www.twitch.tv/grhin)  
@@ -294,27 +297,27 @@ And many more
 
 ui_StartTroops
 {
-	"StartTroops"
+	"Başlama Askerleri"
 }
 
 ui_Resource
 {
-	"StartGoods"
+	"Başlama Kaynakları"
 }
 
 ui_aicconflict
 {
-	"conflict and will be ignored"
+	"çakışıyor ve yoksayılacak."
 }
 
 o_shfy
 {
-	"Strongholdify"
+	"Stronghold'laştır"
 }
 
 o_shfy_beer
 {
-	"Popularity bonus from beer"
+	"İçkiden gelen mutluluk bonusu"
 }
 
 o_shfy_beer_descr
@@ -324,7 +327,7 @@ o_shfy_beer_descr
 
 o_shfy_religion
 {
-	"Popularity bonus from cathedral and church"
+	"Kilise ve Katedral bonusları"
 }
 
 o_shfy_religion_descr
@@ -334,7 +337,7 @@ o_shfy_religion_descr
 
 o_shfy_peasantspawnrate
 {
-	"Spawnrate peasants"
+	"Nüfus artış hızı"
 }
 
 o_shfy_peasantspawnrate_descr
@@ -344,47 +347,47 @@ o_shfy_peasantspawnrate_descr
 
 o_shfy_resourcequantity
 {
-	"Quantity of delivered resources"
+	"Getirilen kaynak oranı"
 }
 
 o_shfy_resourcequantity_descr
 {
-	"Adapts listed aspects to match Stronghold 1. Attention: Every change influences the AI lords, in the worst case renders them useless!"
+	"Belirtilen özellikleri Stronghold 1'deki değerlerine göre değiştirir. Dikkatli olun: Bu değişiklikler bilgisayar lordlarını da etkileyecektir, en kötü ihtimâlde onları işe yaramaz hâle getirebilir!"
 }
 
 o_armory_marketplace_weapon_order_fix
 {
-	"Fix armory/marketplace weapon orders to match"
+	"Silah deposu ve marketteki silah sıralarını birbirine uyacak şekilde değiştir."
 }
 
 o_armory_marketplace_weapon_order_fix_descr
 {
-	"Reorders Weapon icons in Armory and Marketplace to have the same order. Also moves Leather Armor between Mace and Crossbow, and moves Metal Armor between Polearm and Sword for easier access while in Marketplace scrolling through items."
+	"Silah deposundaki ve Marketteki silah ikonlarının sırasını birbiriyle aynı olacak şekilde yeniden sıralar. Ayrıca Deri zırhı topuz ve arbaletin arasına, demir zırhı gönderli balta ve kılıcın arasına yerleştirir."
 }
 
 ai_fix_laddermen_with_enclosed_keep
 {
-    "Fix AI not using laddermen if they are enclosed"
+    "Kalesini çevreleyen bilgisayar lordunun merdivencileri kullanmaması hatasını düzelt."
 }
 
 ai_fix_laddermen_with_enclosed_keep_descr
 {
-    "AI (notably Snake) no longer stops using Laddermen with their sieging units if their keep is enclosed."
+    "Bu değişiklikle bilgisayar (misâlen Snake) kalesini çevrelediklten sonra da merdivencileri kuşatmada kullanmaya devam eder."
 }
 
 o_override_identity_menu
 {
-    "Override the Set-up Identity menu adding new features"
+    "Oyuncu lordu seçme menüsüne yeni özellikler ekle"
 }
 
 o_override_identity_menu_descr
 {
-    "Adds Ranged and Melee unit selection to Set-up Identity menu. ONLY FOR NORMAL GAME MODE!"
+    "Oyuncu lordu seçme menüsüne başlangıç askerlerini seçmeyi sağlayan seçenekler ekle. SADECE TEK KİŞİLİK VE STANDART OYUN MODUNDA ÇALIŞIR."
 }
 
 o_default_multiplayer_speed
 {
-    "Set default multiplayer speed."
+    "Varsayılan çoklu oyuncu maçı hızını değiştir"
 }
 
 o_default_multiplayer_speed_descr
@@ -394,37 +397,37 @@ o_default_multiplayer_speed_descr
 
 u_fireballistafix
 {
-    "Fire ballistae shoot monks and tunnelers"
+    "Ateşli ok toplarına tünelci ve keşişleri vurdurt"
 }
 
 u_fireballistafix_descr
 {
-    "Fire ballistae automatically shoot at monks and tunnelers."
+    "Ateşli ok topları tünelci ve keşişlere de otomatik olarak saldırır."
 }
 
 ui_browsepath
 {
-	"Please choose your Stronghold Crusader installation directory."
+	"Lütfen Stronghold Crusader'ın yüklü olduğu dizini seçin."
 }
 
 ui_aicoldversion
 {
-	"Old version detected. Click to convert"
+	"Eski versiyon bulundu. Buraya basarak çevir"
 }
 
 ui_aicofferconvert
 {
-	"Convert aic file to newer version?"
+	"AIC dosyasını yeni versiyona çevirmek istiyor musun?"
 }
 
 ui_aicconvertprompt
 {
-	"AIC Conversion"
+	"AIC Çevirme"
 }
 
 ui_aicselect
 {
-	"Please deselect other AIC file(s) first. The following aic characters are already selected: "
+	"Lütfen diğer AIC seçimlerni kaldırın. Şu karakterler zaten seçilmiş: "
 }
 
 // ======================
@@ -433,22 +436,22 @@ ui_aicselect
 
 o_firecooldown
 {
-	"Extend fireproof duration of extinguished buildings"
+	"Ateşi döndürülen binaların tutuşmama süresini uzat"
 }
 
 o_firecooldown_descr
 {
-	"The duration in which extinguished buildings cannot catch fire again can be extended here."
+	"Bu seçenek ile yangını sönen binaların tekrar tutuşmadığı süre uzatılabilir."
 }
 
 u_ballistamonk
 {
-	"Fire ballistas shoot monks"
+	"Ateşli ok topu keşişleri vurur"
 }
 
 u_ballistamonk_descr
 {
-	"Fire ballistas shoot automatically at monks with this setting."
+	"Bu seçenek ile ateşli ok topları keşişlere otomatik olarak ateş eder."
 }
 
 
@@ -463,17 +466,17 @@ ui_AIC
 
 ui_aicExport
 {
-	"Export"
+	"Dışa aktar"
 }
 
 ui_aicExport_success
 {
-	"Exported successfully."
+	"Başarı ile dışa aktarıldı."
 }
 
 ui_aicHint
 {
-	"Exports the .aic-file from the installer into the crusader folder."
+	".aic dosyasını kurucudan crusader klasörüne çıkartır."
 }
 
 // ======================
@@ -482,219 +485,215 @@ ui_aicHint
 
 Name
 {
-	"Unofficial Crusader Patcher"
+	"Gayri-resmi Crusader Yama yükleyicisi"
 }
 
 u_ArabXBow
 {
-	"Increased armor of Arabic Swordsmen against crossbows"
+	"Arap kılıçlının arbalet direncini artır"
 }
 
 u_arabxbow_descr
 {
-	" - Arabic Swordsmen only die after 6 crossbow hits intead of 3"
+	" - Arab Kılıçlılar 3 yerine 6 arbalet vuruşuyla ölür"
 }
 
 u_ArabWall
 {
-	"Arabic Swordsmen destroy walls faster"
+	"Arab kılıçlı duvar yıkma hızını artır"
 }
 
 u_ArabWall_descr
 {
-	"In Vanilla, arabic swordsmen destroy walls slower than any other melee unit. &
-With this option, the tear down speed against walls is about doubled for them, &
-putting them slightly above Spearmen."
+	"Orijinal oyunda, arab kılıçlılar oyundaki en kötü duvar yıkan birimlerdir. Bu seçenek ile &
+	bu hızları yaklaşık iki katına yükselir, ve onları mızraklılardan nispeten daha iyi duvar yıkan birimler yapar.
+	In Vanilla, arabic swordsmen destroy walls slower than any other melee unit."
 }
 
 u_spearmen
 {
-	"Increased armor of spearmen against ranged units"
+	"Mızraklıların uzakçı birimlere karşı direncini artır"
 }
 
 u_spearmen_descr
 {
-	" - Spearmen only die after 5 arrow hits instead of 3
- - Spearmen barely survive one crossbow hit, instead of getting one-shot"
+	" - Mızraklıların 3 yerine 5 ok darbesine dayanmasını sağlar. Ayrıca arbalet darbesine karşı da tek vuruşta ölmeyecek, ama ucu ucuna yaşayacak şekilde aldıkları hasarı düzenler."
 }
 
 ui_error
 {
-	"Error"
+	"Hata"
 }
 
 ui_SearchPath
 {
-	" Please select your installation folder:"
+	" Lütfen kurulum klasörünü seçin:"
 }
 
 ui_search
 {
-	"Browse"
+	"Araştır"
 }
 
 ui_continue
 {
-	"Continue"
+	"Devam"
 }
 
 ui_wrongpath
 {
-	"Stronghold Crusader could not be found in the specified path!"
+	"Belirtilen dizinde Stronghold Crusader bulunamadı!"
 }
 
 ui_back
 {
-	"Back"
+	"Geri"
 }
 
 ui_install
 {
-	"Install"
+	"Kur"
 }
 
 ui_finished
 {
-	"Finished"
+	"Tamamlandı"
 }
 
 ui_chooseLangTitle
 {
-	"Setup language"
+	"Kurulum Dili"
 }
 
 ui_chooseLang
 {
-	"Please choose a language for this setup from the list below."
+	"Lütfen aşağıdaki listeden bir kurulum dili seçin."
 }
 
 ui_accept
 {
-	"OK"
+	"Tamam"
 }
 
 ui_cancel
 {
-	"Cancel"
+	"İptal"
 }
 
 ui_uninstall
 {
-	"Uninstall"
+	"Kaldır"
 }
 
 ui_uninstalldone
 {
-	"Uninstall completed."
+	"Kaldırma Tamamlandı."
 }
 
 ai_recruitinterval
 {
-	"Increased recruitment speed"
+	"Asker yetiştirme hızını artır"
 }
 
 ai_recruitinterval_descr
 {
-	"Sets the recruitment interval of all AIs to the lowest value (Rat/Richard niveau)"
+	"Tüm lordların asker yetiştirme periyodunu minimum değere(Rat ve Richard'ın kullandığı değere) ayarlar."
 }
 
 ai_attacklimit
 {
-	"Increase of the attacking troops limit of the AIs"
+	"Bilgisayar lordlarının saldırı ordusu limitini artır"
 }
 
 ai_attacklimit_descr
 {
-	"The number of additional units which are added after the first attack is &
-limited to 200 in Vanilla. Here you can change this limit."
+	"İlk saldırının üstüne eklenebilecek asker limiti orijinal oyunda 200'dür. &
+	Burada bu limiti değiştirebilirsiniz."
 }
 
 o_gamespeed
 {
-	"Extended game speed limits"
+	"Oyun hızı limitini değiştir"
 }
 
 o_gamespeed_descr
 {
-	"The game speed can now be changed as follows:
- - From 10 to 90 in intervals of 5
- - From 90 to 200 in intervals of 10
- - From 200 to 1000 in intervals of 100
-The new values are only available ingame via the +- keys, the slider in the &
-game menu remains unchanged."
+	"Bu seçenek oyun hızının şu şekilde değiştirilmesini sağlar:
+ - 10 ile 90 arasında 5'in katları olarak
+ - 90 ile 200 arasında 10'un katları olarak
+ - 200 ile 1000 arasında 100'ün katları olarak
+Bu değerler sadece oyun esnasında + ve - tuşlarıyla seçilebilir. Ayarlar menüsündeki kaydıraç hâlen 20-90 arasındadır."
 }
 
 ui_bugfix
 {
-	"Bugfixes"
+	"Hata Düzeltmeleri"
 }
 
 ui_ailords
 {
-	"AI lords"
+	"Bilgisayar Lordları"
 }
 
 ui_troops
 {
-	"Units"
+	"Birimler"
 }
 
 ui_other
 {
-	"Other"
+	"Diğer"
 }
 
 o_responsivegates
 {
-	"Quicker responsiveness of gates towards enemies"
+	"Daha hızlı çalışan kapılar"
 }
 
 o_responsivegates_descr
 {
-	"Gates close themselves later if enemies get into range and open faster &
-when the danger is gone. The distance of an enemy for which the gates close &
-will be reduced from 200 to 140. The time after which the gates open, after & 
-all enemies left will be reduced from 1200 to 100."
+	"Kapılar kapanmadan önce düşmanın daha fazla yakınlaşmasını bekler ve &
+tehlike geçince daa hızlı açılır. Kapı ile düşman arası kontrol mesafesi 200'den &
+140'a düşer. Düşmanlar gittikten sonra kapının açılma gecikmesi 1200'den 100'e düşer."
 }
 
 ai_addattack
 {
-	"Increase of the rate of additional attack troops"
+	"Orduların büyüme oranını artır"
 }
 
 ai_addattack_descr
 {
-	"In Vanilla the attack troop number is increased after each attack by 5 &
-units on average. This value is the same for all AI lords and can be changed &
-here."
+	"Orijinal versiyonda her saldırıdan sonra bir sonraki saldırıya ortalama &
+5 asker eklenir. Bu değer tüm bilgisayar lordları için aynıdır ve buradan değiştirilebilir.
 }
 
 ai_addattack_alt_descr
 {
-	"Alternatively, the additional troop count can be made dependent on the &
-troop count of the first attack. Since this value is different for each AI, &
-the following attacks will also scale, instead of increasing by the same value &
+	"Alternatif olarak, bu sayı ilk saldırının asker sayısının bir oranı &
+cinsinden de ayarlanabilir. Bu her bilgisayar lordu için farklı olduğundan &
+her lord için artış sayısı da farklılık gösterecektir.&
 for each AI lord.
-Example: Scale factor = 0.5
-Sultan's attack troops = 10, 15, 20, 25, ...
-Saladin's attack troops = 50, 75, 100, 125, ..."
+Örnek: Artış oranı = 0.5
+Sultan'ın saldırı kuvvetleri = 10, 15, 20, 25, ...
+Saladin'in saldırı kuvvetleri = 50, 75, 100, 125, ..."
 }
 
 u_laddermen
 {
-	"Increased armor of laddermen against ranged units"
+	"Merdivencilerin menzilli birimlere karşı direncini artır"
 }
 
 u_laddermen_descr
 {
-	" - Laddermen die after 12 arrow hits instead of 5
- - Laddermen die after 5 crossbow or slinger hits instead of 2
- - Laddermen cost 20 gold instead of 4"
+	" - Merdivenci 5 yerine 12 ok darbesinde ölür
+ - Merdivenci 2 yerine 5 arbalet veya sapan darbesinde ölür
+ - Merdivenci fiyatı 4'ten 20'ye çıkar."
 }
 
 o_playercolor
 {
-	"Change the color of player 1"
+	"1. Oyuncunun rengini değiştir"
 }
 
 o_playercolor_descr
@@ -704,17 +703,17 @@ o_playercolor_descr
 
 ai_demolish
 {
-	"Deactivate demolishing for money of the AI lords"
+	"Para için bina yıkma özelliğini kapat"
 }
 
 ai_demolish_walls
 {
-	"fortification buildings"
+	"tahkimat binaları"
 }
 
 ai_demolish_eco
 {
-	"econonmy buildings"
+	"ekonomi binaları"
 }
 
 ai_demolish_walls_descr
@@ -724,21 +723,21 @@ ai_demolish_walls_descr
 
 ai_demolish_eco_descr
 {
-	"If the AI feels pressured, it likes to demolishes its economy or &
-fortification buildings to get quick money for troops. This feature sometimes &
-seems to be triggered without any visible reason and thus can be disabled here."
+	"Bilgisayar lordu baskı altında kalınca ekonomi ve tahkimat binalarını &
+yıkarak hızlıca asker yetiştirmeye çalışır. Bazen bu özellik sebepsiz yere tetikleniyor &
+gibi olduğundan bu seçenek ile tamamen iptal edilebilir."
 }
 
 ai_tethers
 {
-	"Disable ox tether spam"
+	"Öküz taşıyıcıları sınırla"
 }
 
 ai_tethers_descr
 {
-	"Usually, the AI builds for each new stone quarry a new ox tether, &
-independent of how many tether already exist. This can be disabled here, since &
-it leads to ox tether spam if the AIs' quarries get destroyed repeatedly."
+	"Genellikle, bilgisayar her yeni taş ocağı için bir öküz yerleştirir, ve &
+bunu yaparken mevcut öküzleri saymaz. Bu seçeek ile bilgisayarın taş ocaklarının çokça &
+yıkıldığı zamanlarda çok sayıda öküz birikmesi engellenir."
 }
 
 
@@ -756,15 +755,14 @@ it leads to ox tether spam if the AIs' quarries get destroyed repeatedly."
 
 ai_nosleep
 {
-	"Disable sleeping mode for lack of resources"
+	"Kaynak olmayınca işçiyi uyutmayı iptal et"
 }
 
 ai_nosleep_descr
 {
-	"The AI usually puts its processing buildings to sleep, as soon &
-as the needed resource is missing. This is done without the regard for &
-losing products which are just on the way f.e. to the weapon chamber.
-This feature can be completely disabled here."
+	"Bilgisayar lordları genelde üretim binalarını eğer gereken kaynak &
+depoda yok ise uyutur. Ancak bu yapılırken depoya silah bırakmaya giden işçiler gözardı &
+edilir ve üretim kaybına sebep olur. Bu özellik burada iptal edilebilir."
 }
 
 
@@ -778,39 +776,35 @@ This feature can be completely disabled here."
 
 o_onlyai
 {
-	"Activate Spectator-mode [bug possible]"
+	"İzleyici Modunu Etkinleştir [Hata Çıkabilir]"
 }
 
 o_onlyai_descr
 {
-	"Removes player 1 so that you can only spectate and makes 8 AIs in one &
-round possible. Savegames now load properly in this mode. Sometimes a bug &
-appears in which random objects spawn all over the map. This is just visually &
-and can be removed by saving the game, ending the mission and reloading the &
-save file."
+	"1. Oyuncuyu kaldırır ve 8 kişilik bilgisayar maçlarını mümkün kılar. &
+Bu oyun modunda oyun kayıtları da yüklenebilir. Bazen bir hata sonucu haritanın &
+üzerinde rastgele ögeler oluşur, ancak bu sadece görsel bir hatadır ve oyunu kaydedip, &
+kapatıp tekrar yükleyerek giderilbilir."
 }
 
 o_moatvisibility
 {
-	"Always show planned moat"
+	"Hendek planlarını sürekli göster"
 }
 
 o_moatvisibility_descr
 {
-	"Your own placed but not digged out moat will always be shown with this &
-setting, even if you deselect the moat placing."
+	"Oyuncunun planladığı ama henüz kazmadığı hendeklerin her zaman oyuncuya görünür olmasını sağlar."
 }
 
 o_engineertent
 {
-	"No siege tent deselection"
+	"Kuşatma çadırının seçim iptalini kapat"
 }
 
 o_engineertent_descr
 {
-	"With this setting, the game will not deselect your chosen siege equipment &
-after placing one tent anymore. This way you can create several tents after another &
-without having to reselect the same siege equipment every time."
+	"Bu seçenek ile, kuşatma çadırı yerleştirdiğiniz zaman seçili olan kuşatma çadırı etkin kalacaktır. Böylece aynı kuşatma silahı için tekrar tekrar seçim yapmanıza gerek kalmaz."
 }
 
 
@@ -829,7 +823,7 @@ without having to reselect the same siege equipment every time."
 
 ai_demolish_trapped
 {
-	"If enclosed"
+	"Eğer içeri kapalı kalmışsa"
 }
 
 ai_demolish_trapped_descr
@@ -839,49 +833,46 @@ ai_demolish_trapped_descr
 
 o_freetrader
 {
-	"Free trader post"
+	"Bedava Market"
 }
 
 o_freetrader_descr
 {
-	"Since the AI sometimes plays itself, when they're out of wood and their trader post &
-is destroyed. With this setting, the trader post will become free of cost to prevent this."
+	"Bazen odunu kalmayan bilgisayar lordu marketi yıkılınca felç olur. Market bedava yapılarak bu engellenebilir."
 }
 
 ai_towerengines
 {
-	"No limit for siege engines on towers"
+	"Kule üstünde sınırsız kuşatma silahı"
 }
 
 ai_towerengines_descr
 {
-	"Usually the AI only builds up to three mangonels and ballistae each on its towers. &
-This limit can be lifted here."
+	"Genelde bilgisayar lordu kulelerine en fazla 3 mancınık ve ok topu koyabilir. Bu limit buradan kaldırılabilir."
 }
 
 ai_buywood
 {
-	"Buy enough wood"
+	"Yeteri kadar odun al"
 }
 
 ai_buywood_descr
 {
-	"To prevent thievish fletchers from stealing wood which the AI just bought for &
-buildings, 2 extra wood will now be bought for each building."
+	"Ok imalatçırının bina kurmak için aldığı odundan kaçırmasını engellemek için bilgisayar lordlarının gerekenden 2 fazla odun almasını sağlar."
 }
 
 o_keys
 {
-	"WASD-Keys and quicksaves"
+	"WASD-Tuşları ve hızlı kayıt"
 }
 
 o_keys_descr
 {
-	"The WASD-keys can be used to move around with this setting as well as &
-CTRL-S and CTRL-L to quicksave and load respectively."
+	"WASD tuşları ile kameranın yönlendirilmesini ve CTRL+S ve CTRL+L ile &
+hızlı kayıt-hızlı yükleme yapılmasını sağlar."
 }
 
-
+//CHECKPOINT
 
 
 
