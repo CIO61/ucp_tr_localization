@@ -900,12 +900,12 @@ hızlı kayıt-hızlı yükleme yapılmasını sağlar."
 
 ai_attacktarget
 {
-	"Set AI attack target"
+	"Bilgisayar Lordunun Hedefini Belirle"
 }
 
 ai_attacktarget_nearest
 {
-	"Nearest enemy"
+	"En Yakındakine"
 }
 
 ai_attacktarget_nearest_descr
@@ -915,7 +915,7 @@ ai_attacktarget_nearest_descr
 
 ai_attacktarget_richest
 {
-	"Richest Enemy"
+	"En Zengine"
 }
 
 ai_attacktarget_richest_descr
@@ -925,14 +925,14 @@ ai_attacktarget_richest_descr
 
 ai_attacktarget_weakest
 {
-	"Weakest Enemy"
+	"En zayıfa"
 }
 
 ai_attacktarget_weakest_descr
 {
-	"With this setting, all AI lords will chose their next attack target in &
-the same way. This prevents troops switching targets during a castle assault &
-as well as sending them past other enemies' castles to gather."
+	"Bu seçenek ile tüm bilgisayar lordlarının hedef tercihi aynı olur. &
+Bu özellik ile kuşatma esnasında hedef değiştirme veya düşman kalelerin önünden başka &
+kaleye saldırmak üzere ordu geçirmeye çalışma gibi davranışları engellemeyi sağlar."
 }
 
 
@@ -953,31 +953,30 @@ as well as sending them past other enemies' castles to gather."
 
 ai_assaultswitch
 {
-	"No AI target change during sieges"
+	"Kuşatma esnasında hedef değiştirmeyi engelle"
 }
 
 ai_assaultswitch_descr
 {
-	"AI lords which attack the mightiest oder weakest enemy sometimes &
-switch their target in the middle of an ongoing assault and send their &
-troops to a different castle. This is prevented with this setting, as soon &
-as the assault has started, i.e. during the troop gathering phase in front of &
-a castle a change can still happen."
+	"En güçlü veya en zayıf düşmana saldırmayı tercih eden bilgisayar &
+lordları bazen saldırının ortasında bir anda hedef değiştirip başka bir kaleye saldırabilmektedir. &
+Bu seçenek ile bu durum engellenir. Saldırı değişikliği ordu bir yere toplandıp harekete geçtiği &
+ana kadar yine gerçekleşebilir."
 }
 
 
 
 ai_rebuild
 {
-	"Improved AI repairs"
+	"Geliştirilmiş Tamir"
 }
 
 ai_rebuild_descr
 {
-	"The AI will repair tower ruins, slightly damaged walls, as well as &
-destroyed engineer's and tunneler's guilds and oil smelters, of which the gathering place &
-still exists. Furthermore, the AI can now build over the collection platform &
-of quarries."
+	"Bilgisayar lordu yıkılmış kuleleri, kısmen hasar görmüş duvarları, yıkılan ama &
+birikme noktası kaybolmayan mühendis tünelci yetiştirme binalarını ve yağ kazanını yeniden &
+inşa edebilir. Bunun yanı sıra, bilgisayar lordu taş ocaklarının biriktirme deposunun üzerine de &
+inşa edebilir."
 }
 
 
@@ -995,11 +994,10 @@ o_healer
 
 o_healer_descr
 {
-	"The healer of the apothecary building now actively seeks out injured soldiers, &
-civilists and animals to heal them. The nearest targets are treated first. With each &
-healing animation ca. 1/3 of a spearman's health is recovered. The strolling through &
-gardens and investigation of plague clouds is not replaced! Only the strolling through &
-the castle is skipped until no more wounded targets are in the area."
+	"Eczane binasında çalışan şifacının ülkeyi gezip yaralı askerleri iyileştirmesini &
+sağlar. Öncelik en yakındakilere verilir. Her devriyede bir yaklaşık mızraklının canının 3'te biri &
+miktarında 5 kez şifa verilir. Eczacı bunun yanı sıra bahçeleri gezme, ve veba dumanını temizleme işlerini &
+yapmaya devam eder. Ancak civarda yaralı asker varsa gezmek yerine buna öncelik verir."
 }
 
 
@@ -1015,12 +1013,12 @@ the castle is skipped until no more wounded targets are in the area."
 
 o_xtreme
 {
-	"Remove the magic bar in Extreme"
+	"Extreme büyü çubuğunu kaldır"
 }
 
 o_xtreme_descr
 {
-	"Removes the magic bar in Crusader Extreme."
+	"Crusader Extreme'deki büyü çubuğunu kaldırır."
 }
 
 
@@ -1036,27 +1034,25 @@ ui_AIV
 
 ai_access
 {
-	"No demolishing of inaccessible buildings"
+	"Ulaşılamaz binaları yıkmayı engelle"
 }
 
 ai_access_descr
 {
-	"Prevents the AI from demolishing buildings without access. This should &
-stop the AI from continuously demolishing and rebuilding buildings where no &
-access is available."
+	"Bilgisayar lordunun ulaşılamaz binaları yıkmasını engeller. Bu sayede &
+bilgisayar lordunun erişilemez hale gelen binayı kurup kurup yıkmasına engel olur."
 }
 
 ai_attackwave
 {
-	"Improve attack waves"
+	"Saldırı dalgalarını iyileştir"
 }
 
 ai_attackwave_descr
 {
-	"The AI in an attack in vanilla only sends as many troops at once as &
-there are wall parts reachable. This causes units to drop in in small waves &
-when the target castle has a lot of buildings directly at its walls.
-This option makes units also attack civil and fortification buildings, as &
-well as wall parts which are already being attacked by one unit. Moreover,
-the AI sends more troops to the enemy lord as soon as it detects a breach."
+	"Orijinal versiyonda bilgisayar lordu bir seferde ancak ulaşabildiği duvar &
+parçası sayısı kadar asker yollar. Bu bazı durumlarda saldırının çok küçük dalgalar &
+halinde gelmesine sebep olur. Bu seçenek askerlerin saldırı askerlerinin duvarların yanı &
+sıra sivil binaları ve savunma binalarına da saldırmasını sağlar. Ayrıca surda gedik açıldığında &
+lorda daha büyük bir kuvvet ile saldırmasını sağlar. "
 }
